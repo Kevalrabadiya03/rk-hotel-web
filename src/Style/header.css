@@ -1,0 +1,36 @@
+.navigation-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color:white;
+}
+
+.navigation-menu li a:hover {
+    color: rgb(57, 226, 71);
+} 
+.active{
+    color: rgb(29, 202, 38) !important;
+    font-weight: bold !important;
+}
+
+/*mobile.css*/
+.mobile-navigation {
+    list-style: none;
+}
+.mobile-navigation li{
+    margin-top: 20px;
+    text-align: center;
+}
+.mobile-navigation li a {
+   text-decoration: none;
+   font-size: 1.4rem;
+   color: black; 
+}
